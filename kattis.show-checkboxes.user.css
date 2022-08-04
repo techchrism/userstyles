@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Kattis Show Checkboxes
+@description  Shows checkboxes by default on the Kattis submission page
+@namespace    https://github.com/techchrism
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://open.kattis.com/submissions/") {
+    [id^=submission_table] {
+        display: block !important;
+        position: relative;
+        margin-left: 2rem;
+    }
+
+    [id^=submission_table] .tooltip-close {
+        display: none;
+    }
+
+    [data-type=testcases] .status-icon-info {
+        display: none;
+    }
+}
