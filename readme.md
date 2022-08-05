@@ -10,3 +10,6 @@ Before:
 
 After:
 ![after](https://user-images.githubusercontent.com/26680599/182767104-0a124d25-02eb-4c45-8a07-f0834579894f.png)
+
+## [YouTube Live Message Undelete](https://github.com/techchrism/userstyles/raw/trunk/youtube.live-message-undelete.user.css)
+Shows the text content of deleted messages on YouTube livestreams

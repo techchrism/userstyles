@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         YouTube Live Message Undelete
+@description  Shows the text content of deleted messages on YouTube livestreams
+@namespace    https://github.com/techchrism
+@version      1.0.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    #message {
+        display: block !important;
+    }
+}
