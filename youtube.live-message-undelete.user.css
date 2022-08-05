@@ -9,6 +9,6 @@
 
 @-moz-document domain("youtube.com") {
     #message {
-        display: block !important;
+        display: inline !important;
     }
 }
